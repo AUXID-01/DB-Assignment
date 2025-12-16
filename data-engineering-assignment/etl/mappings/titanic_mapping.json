@@ -1,0 +1,16 @@
+{
+  "columns": {
+    "PassengerId": "passengers.passenger_ref",
+    "Name": "passengers.name",
+    "Sex": "passengers.sex",
+    "Age": "passengers.age",
+    "Survived": "passengers.survived",
+    "SibSp": "passengers.sib_sp",
+    "Parch": "passengers.parch",
+    "Ticket": "passengers.ticket",
+    "Fare": "passengers.fare",
+    "Cabin": "passengers.cabin",
+    "Pclass": "passenger_classes.class_number",
+    "Embarked": "embarkation_ports.code"
+  }
+}
